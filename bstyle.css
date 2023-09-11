@@ -1,0 +1,126 @@
+.leftdiv{
+    position: absolute;
+    left: 0px;
+    height: 1024px;
+    padding: 16px 8px;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.rightdiv{
+    position: absolute;
+    right: 0px;
+    height: 1024px;
+    padding: 16px 8px;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.col-9{
+    flex: 0 0 auto;
+    width: 75%;
+
+}
+.logodoc{
+    width: 92.948px;
+    height: 53px;
+    display: flex;
+
+}
+.gapcontent{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+height: 80px;
+
+
+}
+.bg{
+    background-color: #F1F4FA;
+    box-shadow:0px 4px 4px 0px;
+}
+.search{
+    display: flex;
+    width: 465px;
+    height: 44px;
+    padding: 12px 334px 12px 16px;
+    align-items: center;
+flex-shrink: 0;
+border-radius: 12px;
+border: 2px solid var(--slate-300, #CBD5E1);
+background: var(--colour-white-ffffff, #FFF);
+color: var(--slate-400, #94A3B8);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+
+}
+.linepic{
+    display: inline-block;
+    color: #4A708F;
+
+/* font-sans/text-sm/semibold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+}
+.timedate{
+color: var(--primaryfont-3-c-3-c-3-c, #3C3C3C);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+
+}
+.updtnumtext{
+    color: var(--white, #FFF);
+
+/* font-sans/text-base/semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+.updtnumdsgn{
+    display: inline-flex;
+padding: 0px 8px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #4A708F;
+}
+.txtgp{
+    width: 267px;
+height: 32px;
+color: #4A708F;
+
+/* font/Body/2-regular-12px */
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+.searchcontainer{
+    position: absolute;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+margin-top: 12px;
+margin-left: 3px;
+   
+}
+.gap{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 458px;
+
+margin-top: 510px;
+}
